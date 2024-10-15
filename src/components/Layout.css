@@ -1,0 +1,24 @@
+/* Asegura que la página ocupe al menos el 100% del alto de la pantalla */
+html, body, .layout-container {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Configura layout-container como un contenedor flex */
+  .layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ocupa el alto de toda la ventana */
+  }
+  
+  /* El main debe ocupar el espacio disponible */
+  main {
+    flex: 1;
+  }
+  
+  /* Footer pegado al final */
+  footer {
+    
+    text-align: center;
+    
+  }
